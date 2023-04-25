@@ -26,7 +26,7 @@ function Header(){
             <div className="nav">
             <nav className="navBar">
                     <div className="logo">
-                    <img src={thelogo} height={50}/>
+                    <img src={thelogo} height={37}/>
                     <h2 className="logo-title">React</h2>  
                     </div>
                     <div className="right">
@@ -48,7 +48,7 @@ function Header(){
                             setDeleteTheme(deleteTheme => !deleteTheme)}}
                         >Delete</li>
                     </ul>
-                    <input placeholder=" 🔍︎ |  Search"/>
+                    <input placeholder="    Search"/>
                     </div>
                
             </nav>
