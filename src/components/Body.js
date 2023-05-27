@@ -1,10 +1,11 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-
+import { MDBTable, MDBTableHead, MDBTableBody } from 'mdb-react-ui-kit';
+import { useState } from 'react';
+import Read from './Read'
 function Body() {
   return (
-
     <>
         <link
   rel="stylesheet"
@@ -19,8 +20,10 @@ function Body() {
                 <h1 className='ContentTitle'>Welcome User</h1>
                 <div className='Desk'>
                 <div className='SS'> </div>
-                <h6 className='Description'><b>Create Read Update Delete project using React.js. Come on !! and let's play with datas.</b><br></br>
+                <h6 className='Description'><b>Create Read Update Delete project using React.js. Come on ! and let's play with datas.</b><br></br>
                 The new Quick Start teaches modern React and includes live examples.</h6></div> 
+                <Read />
+               
             </div>
         </Col>
         <Col sm={3} className='thirdC'>
