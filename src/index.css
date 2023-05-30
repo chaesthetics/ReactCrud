@@ -169,3 +169,23 @@ ul{
 .deleteB{
   border: 0px solid black;
 }
+
+.createUserForm{
+  display: block;
+  align-items: center;
+  text-align: center;
+  margin-top: 60px;
+  font-size: large;
+}
+
+input{
+  border-radius: 5px;
+  border:none;
+  height: 40px;
+  width: 280px;
+}
+
+label{
+  font-weight: 600;
+  font-size: 30px;
+}
